@@ -11,14 +11,14 @@
       "**",
       "!src/routeTree.gen.ts",
       "!src/components/ui",
-      "!src/lib/utils.ts",
       "!components.json",
       "!node_modules"
     ]
   },
   "formatter": {
     "enabled": true,
-    "indentStyle": "space"
+    "indentStyle": "space",
+    "lineWidth": 100
   },
   "linter": {
     "enabled": true,
