@@ -35,7 +35,7 @@ function App() {
         </div>
       )}
 
-      <div className="flex h-screen flex-col items-center justify-center space-y-10">
+      <div className="flex h-screen items-center justify-center">
         <Tabs
           defaultValue={String(tab)}
           onValueChange={(value) => setTab(Number(value))}
